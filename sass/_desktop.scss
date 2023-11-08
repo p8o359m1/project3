@@ -1,14 +1,11 @@
 @media only screen and (min-width: 375px) {
-   
-  
-    body {
+  body {
     display: flex;
     justify-content: center;
     align-items: center;
 
     .product__wrap {
       width: 22%;
-  
 
       .image {
         transform: scale(50%);
@@ -30,7 +27,6 @@
         font-size: 0.5rem;
         color: $Transp--white-paragraphs;
         padding: 0 1.4rem;
-        
       }
 
       .submit {
@@ -45,7 +41,7 @@
         margin-bottom: 1.6rem;
 
         &:hover {
-            cursor: pointer;
+          cursor: pointer;
         }
       }
 
