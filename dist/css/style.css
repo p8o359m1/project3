@@ -90,7 +90,7 @@ body {
     align-items: center;
   }
   body .product__wrap {
-    max-width: 42%;
+    max-width: 320px;
     height: 29%;
   }
   body .product__wrap .image {
