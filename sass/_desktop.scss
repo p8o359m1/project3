@@ -1,0 +1,81 @@
+@media only screen and (min-width: 375px) {
+   
+  
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .product__wrap {
+      width: 22%;
+  
+
+      .image {
+        transform: scale(50%);
+        margin-left: 0.4rem;
+        padding-top: 1rem;
+      }
+
+      .product__title {
+        text-transform: uppercase;
+        font-family: $Big--Shoulders-Display;
+        font-size: 1.4rem;
+        color: $Very--light-gray;
+        padding: 0.6rem 1.4rem;
+        margin-top: -1rem;
+      }
+
+      .product__text {
+        font-family: $Lexend-Deca;
+        font-size: 0.5rem;
+        color: $Transp--white-paragraphs;
+        padding: 0 1.4rem;
+        
+      }
+
+      .submit {
+        border: none;
+        background-color: $Very--light-gray;
+        border-radius: 20px;
+        font-size: 0.6rem;
+        width: 80px;
+        height: 25px;
+        margin-left: 1.4rem;
+        margin-top: 3rem;
+        margin-bottom: 1.6rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+      }
+
+      #btn__orange {
+        color: $Bright-orange;
+      }
+
+      #btn__blue {
+        color: $Dark-cyan;
+      }
+
+      #btn__green {
+        color: $Very--dark-cyan;
+      }
+    }
+  }
+
+  .wrap__orange {
+    background-color: $Bright-orange;
+    border-bottom-left-radius: 0.3rem;
+    border-top-left-radius: 0.3rem;
+  }
+
+  .wrap__blue {
+    background-color: $Dark-cyan;
+  }
+
+  .wrap__green {
+    background-color: $Very--dark-cyan;
+    border-bottom-right-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+  }
+}
