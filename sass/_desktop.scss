@@ -1,16 +1,17 @@
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 376px) {
   body {
     display: flex;
     justify-content: center;
     align-items: center;
 
     .product__wrap {
-      width: 22%;
+      width: 187px;
+      height: 300px;
 
       .image {
-        transform: scale(50%);
+        transform: scale(60%);
         margin-left: 0.4rem;
-        padding-top: 1rem;
+        padding-top: 1.7rem;
       }
 
       .product__title {
@@ -19,14 +20,15 @@
         font-size: 1.4rem;
         color: $Very--light-gray;
         padding: 0.6rem 1.4rem;
-        margin-top: -1rem;
+        margin-top: -0.3rem;
       }
 
       .product__text {
         font-family: $Lexend-Deca;
-        font-size: 0.5rem;
+        font-size: 0.58rem;
         color: $Transp--white-paragraphs;
         padding: 0 1.4rem;
+        width: 175px;
       }
 
       .submit {

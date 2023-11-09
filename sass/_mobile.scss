@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) {
   body {
     display: flex;
     flex-direction: column;
@@ -6,29 +6,31 @@
     align-items: center;
 
     .product__wrap {
-      max-width: 320px;
-      height: 29%;
+      max-width: 150px;
+      height: 205px;
 
       .image {
         transform: scale(50%);
-        margin-left: 4%;
-        padding-top: 10%;
-        margin-bottom: 0px;
+        margin-left: 0.4rem;
+        padding-top: 1rem;
       }
 
       .product__title {
         text-transform: uppercase;
         font-family: $Big--Shoulders-Display;
-        font-size: 110%;
+        font-size: 1.1rem;
         color: $Very--light-gray;
+        padding: 0rem 1.4rem;
+        margin-top: 0rem;
       }
 
       .product__text {
         font-family: $Lexend-Deca;
-        font-size: 44%;
+        font-size: 0.43rem;
         color: $Transp--white-paragraphs;
         padding: 0 1.4rem;
-        padding-bottom: 0%;
+        position: relative;
+        top: 5px;
       }
 
       .submit {
@@ -36,11 +38,11 @@
         background-color: $Very--light-gray;
         border-radius: 20px;
         font-size: 0.6rem;
-        width: 43%;
-        height: 10.5%;
+        width: 80px;
+        height: 25px;
         margin-left: 1.4rem;
-        margin-top: 7%;
-        margin-bottom: 0%;
+        top: 20px;
+        position: relative;
 
         &:hover {
           cursor: pointer;
@@ -65,6 +67,7 @@
     background-color: $Bright-orange;
     border-top-right-radius: 0.3rem;
     border-top-left-radius: 0.3rem;
+    margin-top: 40px;
   }
 
   .wrap__blue {
@@ -75,5 +78,6 @@
     background-color: $Very--dark-cyan;
     border-bottom-right-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
+    margin-bottom: 40px;
   }
 }
